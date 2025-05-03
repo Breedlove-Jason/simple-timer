@@ -9,6 +9,10 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/register": "^7.27.1",
+    "jsdom": "^26.1.0",
     "vite": "^6.3.1"
   }
 }
