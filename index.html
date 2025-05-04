@@ -6,6 +6,17 @@
     <title>Simple Timer JS</title>
   </head>
   <body>
+    <svg height="400" width="400">
+      <circle
+        r="190"
+        cx="200"
+        cy="200"
+        fill="transparent"
+        stroke="blue"
+        stroke-width="15"
+        transform="rotate(-90 200 200)"
+      />
+    </svg>
     <div class="timer-controls">
       <label for="duration"></label>
       <input type="text" id="duration" value="30" />
@@ -13,6 +24,9 @@
       <button id="pause">Pause</button>
     </div>
     <div id="app"></div>
-    <script type="module" src="/src/index.js"></script>
+    <!-- Load timer.js first -->
+    <script src="/src/timer.js"></script>
+    <!-- Then load index.js -->
+    <script src="/src/index.js"></script>
   </body>
 </html>
